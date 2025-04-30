@@ -42,4 +42,4 @@ Whether it's professional, friendly, or casual — respond faster and smarter wi
 ### 🔹 Chrome Extension
 1. Clone this repo:
    
-   git clone https://github.com/yourusername/email-writer-assistant.git
+   git clone https://github.com/Yamansaini0405/email-generator-springAI.git
