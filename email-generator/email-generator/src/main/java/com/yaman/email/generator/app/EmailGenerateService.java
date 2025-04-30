@@ -66,7 +66,7 @@ public class EmailGenerateService {
         StringBuilder prompt = new StringBuilder();
         prompt.append("Generate a Professional email reply for the following email content. Please don't generate the subject Line. ");
         prompt.append("Important: Do NOT include any explanations, improvements, or tips. ");
-        prompt.append("Only return the body of the email, properly formatted.\n");
+        prompt.append("Only return the body of the email, properly formatted. Only give the reply to this email\n");
         if(emailRequest.getTone() != null && !emailRequest.getTone().isEmpty()){
             prompt.append("Use a ").append(emailRequest.getTone()).append(" tone.");
         }
